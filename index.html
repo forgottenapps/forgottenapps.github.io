@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forgotten Applications</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/4.0.0/normalize.css">
+	<!-- <link rel="stylesheet" type="text/css" href="./bower_components/bootstrap/dist/css/bootstrap.min.css">-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+	<link rel="stylesheet" type="text/css" href="./css/main.css">
+
+	<!-- <script type="text/javascript" src="./bower_components/jquery/dist/jquery.min.js"></script> -->
+	<script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+	<!-- <script type="text/javascript" src="./bower_components/bootstrap/dist/js/bootstrap.min.js"></script> -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+</head>
+<body>
+
+	<div class="container-fluid" style="padding: 0;">
+		<div class="mynavbar flex">
+			<div class="col-sm-2"></div>
+			<div class="col-sm-4 logo">
+				<a id="homeButton" href="" class="title">Forgotten<span class="title" style="color: #767676;">applications</span></a>
+			</div>
+			<div class="col-sm-4" style="padding: 0;">
+				<div class="header">
+
+					<div class="menuIcon">
+						<a href="">Forgottenapplications</a>
+						<a><span id="burgerMenu-button" style="font-size: 20pt; top: 9px; right: 8px; padding: 10px; float: right; position: absolute;" class="glyphicon glyphicon-menu-hamburger"></span></a>
+					</div>
+
+					<div class="menu">
+						<ul>
+							<li class="navOptions" id="lastNav"><a id="aboutButton" href="#">About</a></li>
+							<li class="dropdown navOptions">
+								<a id="contacttoggle" href="#">Contact</a>
+								<ul id="contact-dropdownMenu" class="dropdown-menu menuBorder-contact">
+									<li style="color: #47525e; font-size: 18px; padding: 15px 10px;">
+										<!-- 	<p style="margin: 0;">For business inquiries</p>
+										<p style="margin: 0;">or customer support</p> -->
+										<p style="margin: 0;">Have any questions?</p>
+										<p>Contact us at:</p>
+										<a style="color: #53687E; padding: 15px 0 0;" href="mailto:forgottenapplications@gmail.com">forgottenapplications@gmail.com</a>
+									</li>
+								</ul></li>
+							<li class="dropdown navOptions">
+								<a href="#" id="productstoggle">Products
+								<span class="glyphicon glyphicon-menu-down" id="arrowDown"></span></a>
+								<ul id="products-dropdownMenu" class="dropdown-menu menuBorder-4get">
+									<li id="4get-button"><a id="4get-button-atag" href="#">4get</a></li>
+									<li id="CanWePlay-button"><a id="CanWePlay-button-atag" href="#">Can We Play?</a></li>
+									<li id="Ra2-button"><a id="Ra2-button-atag" href="#/">Coming soon</a></li>
+								</ul>
+							</li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+			<div class="col-sm-2"></div>
+		</div>
+	</div>
+
+	<div id="mainWrapper">
+
+		<div id="mainContent" class="sliderWrapper currentContent">
+
+			<div class="row staticPhone" style="position: absolute; width: 100%; height: 90%; margin: 0; z-index: 1;">
+				<div class="col-md-2"></div>
+				<div id="col1" class="col-md-4" style="height: 100%; padding: 0;">
+					<img id="largeScreen-content" style="max-height: 100%; max-width: 100%; margin: auto;" src="img/z5 dual5.png">
+					<img id="smallScreen-content" style="max-height: 100%; max-width: 100%; margin: auto;" src="img/z5.png">
+				</div>
+				<div id="col1" class="col-md-4"></div>
+				<div class="col-md-2"></div>
+			</div>
+
+			<div class="imageSlider" style="position: absolute; width: 100%; height: 90%; z-index: 2;">
+				<div class="imageSlide active-image" id="4get-image">
+					<div class="row" style="position: absolute; width: 100%; height: 100%; margin: 0;">
+						<div class="col-md-2"></div>					
+						<div id="col1" class="col-md-4 phoneContent" style="height: 100%; padding: 0;">
+							<img id="largeScreen-content" style="max-height: 100%; max-width: 100%; margin: auto;" src="img/4get/main view fit z5 dual2.png">
+							<img id="smallScreen-content" style="max-height: 100%; max-width: 100%; margin: auto;" src="img/4get/main view fit z5.png">
+						</div>
+						<div id="col1" class="col-md-4"></div>
+						<div class="col-md-2"></div>
+					</div>	
+				</div>
+
+				<div class="imageSlide" id="CanWePlay-image">
+					<div class="row" style="position: absolute; width: 100%; height: 100%; margin: 0;">
+						<div class="col-md-2"></div>
+						<div id="col1" class="col-md-4 phoneContent" style="height: 100%; padding: 0;">
+							<img id="largeScreen-content" style="max-height: 100%; max-width: 100%; margin: auto;" src="img/Can we play/cwp mainview fit z5 dual2.png">
+							<img id="smallScreen-content" style="max-height: 100%; max-width: 100%; margin: auto;" src="img/Can we play/cwp mainview fit z5.png">
+						</div>
+						<div id="col1" class="col-md-4"></div>
+						<div class="col-md-2"></div>
+					</div>	
+				</div>
+
+				<div class="imageSlide" id="Ra2-image">
+					<div class="row" style="position: absolute; width: 100%; height: 100%; margin: 0;">
+						<div class="col-md-2"></div>
+						<div id="col1" class="col-md-4 phoneContent" style="height: 100%; padding: 0;">
+							<img id="largeScreen-content" style="max-height: 100%; max-width: 100%; margin: auto;" src="img/notification fit z5 dual2.png">
+							<img id="smallScreen-content" style="max-height: 100%; max-width: 100%; margin: auto;" src="img/notification fit z5.png">
+						</div>
+						<div id="col1" class="col-md-4"></div>
+						<div class="col-md-2"></div>
+					</div>
+				</div>
+			</div>
+
+			<div class="slider">
+
+				<div id="4get-slide" class="slide">
+					<div class="row" style="height: 100%; margin: 0; background-color: #00ad84;">
+						<div class="col-md-2"></div>
+						<div id="col1" class="col-md-4"></div>
+						<div id="col1" class="col-md-4 description-box">
+							<div class="description-content">
+								<h1 style="margin: 0 0 30px 0;">4get</h1>
+
+								<p style="font-size: 16pt;">Let</p>
+								<p style="font-size: 20pt">4 POSTS</p>
+								<p style="font-size: 20pt">4 BUTTONS</p>
+								<p style="font-size: 20pt">1 NOTIFICATION</p>
+								<p style="font-size: 16pt">change the way you remember...and forget</p>
+
+								<a href="https://play.google.com/store/apps/details?id=com.forgottenapplications.fourget" target="_blank">
+									<img id="googleplay-button" style="position: absolute; max-width: 200px;" src="img/google play badge.png" alt="Get on Google Play">
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+
+					<div id="4get-moreInfo"; class="row moreInfo" style="display: none; margin: 0;">
+
+						<div id="moreInfo-headline" style="text-align: center; margin-bottom: 40px; " class="col-md-8">
+							<h3>4get - helps you remember when notes, to-do list and calendar apps get stuffed.</h3>
+						</div>
+
+						<div class="col-md-8" style="margin-bottom: 40px;">
+							<div style="height: 1px; background-color: rgba(170,170,170,0.4); position: absolute; top: 60px; padding: 0 50%;"></div>
+							<img style="position: relative; display: block; margin-left: auto; margin-right: auto;" src="img/4get/4get-logo.png">
+						</div>
+
+						<div class="col-md-2"></div>
+						<div id="colMoreInfo" class="col-md-4" style="border-right: 1px solid rgba(170,170,170,0.4);">
+							<h3>Prioritize and take action</h3>
+							<p>4get - the simplest & most efficient remembering tool ever limits the space you have to input the important things you need to remember.</p>
+							<p>When you've taken the action needed you just press '4get' and boom: it's gone and forgotten.</p>
+						</div>
+						<div id="colMoreInfo" class="col-md-4">
+							<h3>Notification overview</h3>
+							<p>4get - gives you and overview of all the things you need to remember & instant access via notificition to both view and edit.</p>
+							<p>4get helps you remember the most imporantant things in life.</p>
+						</div>
+						<div class="col-md-2"></div>
+
+						<div id="collage" style="padding: 0 15%; margin-top: 50px; border-bottom: 1px solid rgba(170,170,170,0.4);" class="col-md-12">
+							<img style="max-width: 100%; max-height: 100%;" src="img/4get/4get collage4.png">
+						</div>
+
+						<div id="getItBanner" style="background-color:  #f9fafb; height: 254px; padding-top: 55px;" class="col-md-3">
+							<img id="getItBanner-logo" style="margin-left: auto; display: block;" src="img/4get/4get-logo2.png">
+						</div>
+						<div id="getItBanner" style="background-color:  #f9fafb; height: 254px; padding-top: 55px;" class="col-md-6">
+							<h2 style="font-size: 32pt;">4get</h2>
+							<h3 style="font-size: 24pt;">Remember to forget</h3>
+						</div>
+						<div id="getItBanner" style="background-color:  #f9fafb; height: 254px; padding-top: 95px;" class="col-md-3">
+								<a href="https://play.google.com/store/apps/details?id=com.forgottenapplications.fourget" target="_blank">
+									<img id="googleplay-button" style="max-height: 60px; position: absolute; left: -5%;" src="img/google play badge.png" alt="Get on Google Play">
+								</a>
+						</div>
+
+						<div style="background-color: #00ad84; height: 60px; text-align: center; padding: 14px;" class="col-md-12">
+							<a href="#" class="scrollToTop" style="color: #F9FAFB; font-size: 20pt;">Back to top</a>
+						</div>
+
+					</div>
+				</div>
+
+				<div id="CanWePlay-slide" class="slide">
+					<div class="row" style="height: 100%; margin: 0; background-color: #F44336;">
+						<div class="col-md-2"></div>
+						<div id="col1" class="col-md-4"></div>
+						<div id="col1" class="col-md-4 description-box">
+							<div class="description-content">
+								<h1 style="margin: 0 0 30px 0;">Can We Play?</h1>
+
+			<!-- 					<p style="font-size: 16pt;">Let</p>
+								<p style="font-size: 20pt">4 POSTS</p>
+								<p style="font-size: 20pt">4 BUTTONS</p>
+								<p style="font-size: 20pt">1 NOTIFICATION</p>
+								<p style="font-size: 16pt">change the way you remember...and forget</p> -->
+
+								<a href="#/">
+									<img id="googleplay-button" style="position: absolute; max-width: 200px;" src="img/google play badge soon.png" alt="Soon on Google Play">
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+
+					<div id="CanWePlay-moreInfo"; class="row moreInfo" style="display: none; margin: 0;">
+
+					<!-- 	<div style="position: absolute; top: 150px; background-color: white; height: 1000px; width: 100%; z-index: -5;"></div> -->
+					
+						<!-- <div style="background: white; overflow: auto;"> -->
+						<div id="moreInfo-headline" style="text-align: center; margin-bottom: 40px;" class="col-md-8">
+							<h3>Can We play? - helps you and your friends organize and find somewhere to play.</h3>
+						</div>
+
+						<div class="col-md-8" style="margin-bottom: 40px;">
+							<div style="height: 1px; background-color: rgba(170,170,170,0.4); position: absolute; top: 60px; padding: 0 50%;"></div>
+							<img style="position: relative; display: block; margin-left: auto; margin-right: auto;" src="img/Can we play/Cwp logo.png">
+						</div>
+
+						<div class="col-md-2"></div>
+						<div id="colMoreInfo" class="col-md-4" style="border-right: 1px solid rgba(170,170,170,0.4);">
+							<h3>Fields & events overview</h3>
+							<p>Can We Play? - Helps you find a place to play by giving you a simple overview of all fields and events near you.</p>
+							<p>If you're looking for an available field, someone to play with or just browsing for something to do - Can we play is the app for you.</p>
+						</div>
+						<div id="colMoreInfo" class="col-md-4">
+							<h3>Create & join events</h3>
+							<p>Can we Play? - the simplest & most efficient way of organizing sports events with your friends.</p>
+							<p>Can we play let's you join current get togethers with just a click of a button or create your own with you and your friends.</p>
+						</div>
+						<div class="col-md-2"></div>
+
+						<div id="collage" style="padding: 0 15%; margin-top: 50px; border-bottom: 1px solid rgba(170,170,170,0.4);" class="col-md-12">
+							<img style="max-width: 100%; max-height: 100%;" src="img/Can we play/cwp collage.png">
+						</div>
+						<!-- </div> -->
+
+					<!-- 	<div id="sticky-anchor"></div>
+						<div id="sticky" style="display: flex; width: 100%;"> -->
+						<div id="getItBanner" class="col-md-3" style="background-color:  #f9fafb; height: 254px; padding-top: 55px;">
+							<img id="getItBanner-logo" style="margin-left: auto; display: block;" src="img/Can we play/cwp logo2.png">
+						</div>
+						<div id="getItBanner" class="col-md-6" style="background-color:  #f9fafb; height: 254px; padding-top: 55px;">
+							<h2 style="font-size: 32pt;">Can We Play?</h2>
+							<h3 style="font-size: 24pt;">Finding you a place to play</h3>
+						</div>
+						<div id="getItBanner" class="col-md-3" style="background-color:  #f9fafb; height: 254px; padding-top: 95px;">
+								<a href="#/">
+									<img id="googleplay-button" style="max-height: 60px; left: -5%;" src="img/google play badge soon.png" alt="Soon on Google Play">
+								</a>
+						</div>
+						<!-- </div> -->
+
+					<!-- 	<div class="col-md-12" style="z-index: -20; width: 100%; height: 68vh;"></div>
+
+						<div class="lang-box">
+						</div> -->
+
+				<!-- 		<div style="margin: 500px 0; text-align: center;"><h3 style="color: black; font-size: 35pt;">Can we play</h3></div> -->
+						
+						<div style="background-color: #F44336; height: 60px; text-align: center; padding: 14px;" class="col-md-12">
+							<a href="#" class="scrollToTop" style="color: #F9FAFB; font-size: 20pt;">Back to top</a>
+						</div>
+
+					</div>
+				</div>
+
+				<div id="Ra2-slide" class="slide">
+					<div class="row" style="height: 100%; margin: 0; background-color: yellow;">
+						<div class="col-md-2"></div>
+						<div id="col1" class="col-md-4"></div>
+						<div id="col1" class="col-md-4 description-box">
+							<div class="description-content">
+								<h1 style="margin: 0 0 30px 0;">4get</h1>
+
+								<p style="font-size: 16pt;">Let</p>
+								<p style="font-size: 20pt">4 POSTS</p>
+								<p style="font-size: 20pt">4 BUTTONS</p>
+								<p style="font-size: 20pt">1 NOTIFICATION</p>
+								<p style="font-size: 16pt">change the way you remember...and forget</p>
+
+								<a href="https://play.google.com/store/apps/details?id=com.forgottenapplications.fourget" target="_blank">
+									<img id="googleplay-button" style="position: absolute; max-width: 200px;" src="img/google play badge.png" alt="Get on Google Play">
+								</a>
+							</div>
+						</div>
+						<div class="col-md-2"></div>
+					</div>
+
+					<div id="Ra2-moreInfo"; class="row moreInfo" style="display: none; margin: 0;">
+						
+						<div id="moreInfo-headline" style="text-align: center; margin-bottom: 40px;" class="col-md-8">
+							<h3>4get - helps you remember when notes, to-do list and calendar apps get stuffed.</h3>
+						</div>
+
+						<div class="col-md-8" style="margin-bottom: 40px;">
+							<div style="height: 1px; background-color: rgba(170,170,170,0.4); position: absolute; top: 60px; padding: 0 50%;"></div>
+							<img style="position: relative; display: block; margin-left: auto; margin-right: auto;" src="img/4get-logo.png">
+						</div>
+
+						<div class="col-md-2"></div>
+						<div id="colMoreInfo" class="col-md-4" style="border-right: 1px solid rgba(170,170,170,0.4);">
+							<h3>Prioritize and take action</h3>
+							<p>4get - the simplest & most efficient remembering tool ever limits the space you have to input the important things you need to remember.</p>
+							<p>When you've taken the action needed you just press '4get' and boom: it's gone and forgotten.</p>
+						</div>
+						<div id="colMoreInfo" class="col-md-4">
+							<h3>Notification overview</h3>
+							<p>4get - gives you and overview of all the things you need to remember & instant access via notificition to both view and edit.</p>
+							<p>4get helps you remember the most imporantant things in life.</p>
+						</div>
+						<div class="col-md-2"></div>
+
+						<div id="collage" style="padding: 0 15%; margin-top: 50px; border-bottom: 1px solid rgba(170,170,170,0.4);" class="col-md-12">
+							<img style="max-width: 100%; max-height: 100%;" src="img/4get collage4.png">
+						</div>
+
+						<div id="getItBanner" style="background-color:  #f9fafb; height: 254px; padding-top: 55px;" class="col-md-3">
+							<img id="getItBanner-logo" style="margin-left: auto; display: block;" src="img/4get-logo2.png">
+						</div>
+						<div id="getItBanner" style="background-color:  #f9fafb; height: 254px; padding-top: 55px;" class="col-md-6">
+							<h2 style="font-size: 32pt;">4get</h2>
+							<h3 style="font-size: 24pt;">Remember to forget</h3>
+						</div>
+						<div id="getItBanner" style="background-color:  #f9fafb; height: 254px; padding-top: 95px;" class="col-md-3">
+								<a href="https://play.google.com/store/apps/details?id=com.forgottenapplications.fourget" target="_blank">
+									<img id="googleplay-button" style="max-height: 60px; position: absolute; left: -5%;" src="img/google play badge.png" alt="Get on Google Play">
+								</a>
+						</div>
+
+						<div style="background-color: #00ad84; height: 60px; text-align: center; padding: 14px;" class="col-md-12">
+							<a href="#" class="scrollToTop" style="color: #F9FAFB; font-size: 20pt;">Back to top</a>
+						</div>
+
+					</div>
+				</div>
+			</div>
+
+			<div style="position: absolute; width: 100%; text-align: center;">
+
+				<div class="slide-nav">
+					<!-- <a href="#" class="prev-slide"><span class="glyphicon glyphicon-menu-left"></span></a> -->
+					<ul class="slider-dots">
+						<li class="dot active-dot">&bull;</li>
+						<li class="dot">&bull;</li>
+						<li class="dot">&bull;</li>
+					</ul>
+
+					<a id="readMore-button" style="position: relative; color: #47525e; font-size: 20pt; top: -15px;" href="#">Read more</a>
+<!-- 					<a href="#" class="next-slide"><span class="glyphicon glyphicon-menu-right"></span></a> -->
+				</div>
+
+			</div>
+
+		</div>
+
+<!-- 		<div id="mainContent" class="contactWrapper">
+			<div id="viewHeight" class="row" style="height: 600px; margin: 0; background-color: #7e00ff;" >
+
+				<div id="centerWrapper" class="col-md-12" style="margin: 0; padding: 0 20%; height: 100%;"> 
+					
+				</div>
+			</div>
+		</div> -->
+
+		<div id="mainContent" class="aboutWrapper">
+			<div id="viewHeight" class="row" style="height: 600px; margin: 0; background-color: #258C59;">
+				<div class="row" style="height: 100%; margin: 0;">
+					<div class="col-md-2"></div>
+					<div id="col2" class="col-md-4" style="height: 100%; top: 24px;">
+						<img src="img/z5 ForApp logo3.png" style="max-width: 100%; max-height: 90%; margin: auto; display: block;">
+					</div>
+					<div id="col2" class="col-md-4 description-box" style="height: 100%;">
+						<div class="description-content">
+							<p style="color: white; font-size: 12pt;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse efficitur ligula et interdum tincidunt. Phasellus sed augue leo. Morbi semper semper purus eu accumsan. Curabitur in tempor dolor. Donec mattis efficitur placerat. Praesent non viverra erat.</p>
+							<p style=" color: white; font-size: 18pt;">You can find all of our applications on:</p>
+							<a href="https://play.google.com/store/apps/developer?id=Forgotten+Applications" target="_blank">
+								<img id="googleplay-button" style="max-height: 60px;" src="img/google play badge2.png" alt="Find us on Google Play">
+							</a>
+						</div>
+					</div>
+					<div class="col-md-2"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script type="text/javascript" src="/js/scripts.js"></script>
+
+</body>
+</html>
