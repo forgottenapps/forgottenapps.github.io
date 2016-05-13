@@ -299,6 +299,12 @@ var timer = setInterval(slideInterval, 0);
 			nextImage = $('.imageSlide').first();
 		}
 
+		if (nextSlide.hasClass('comingsoon')) {
+			nextSlide = $('.slide').first();
+			nextDot = $('.dot').first();
+			nextImage = $('.imageSlide').first();
+		}
+
 		currentSlide.fadeOut(600).removeClass('active-slide');
 		nextSlide.fadeIn(600).addClass('active-slide');
 
