@@ -269,12 +269,12 @@ a {
 
 	/*contact wrapper*/
 
-.contactWrapper {
+/*.contactWrapper {
 	display: none;
 	position: absolute;
 	top: 112px;
 	width: 100%;
-}
+}*/
 
 	/*contact wrapper*/
 
@@ -442,7 +442,7 @@ a {
 
 @media screen and (min-width: 821px) {
 	.menuBorder-4get {
-		border-bottom: 2px solid #008F80;
+		border-bottom: 3px solid #008F80;
 		border-radius: 0;
 	}
 
@@ -457,7 +457,7 @@ a {
 	}
 
 	.menuBorder-CanWePlay {
-		border-bottom: 2px solid #C00D00;
+		border-bottom: 3px solid #C00D00;
 		border-radius: 0;
 	}
 
@@ -472,7 +472,7 @@ a {
 	}
 
 	.menuBorder-Ra2 {
-		border-bottom: 2px solid green;
+		border-bottom: 3px solid green;
 		border-radius: 0;
 	}
 
@@ -487,13 +487,13 @@ a {
 	}
 
 	.menuBorder-contact {
-		border-bottom: 2px solid purple;
+		border-bottom: 3px solid rgba(0,0,0, 0.2);
 		border-radius: 0;
 	}
 
 	.menuBorder-contact:after {
 		content:""; 
-	  	background: purple; 
+	  	background: rgba(0,0,0, 0.2); 
 	  	position: absolute; 
 	  	top: 0; 
 	  	left: 10%; 
@@ -502,7 +502,7 @@ a {
 	}
 
 	.menuBorder-about {
-		border-bottom: 2px solid #00651E;
+		border-bottom: 3px solid #00651E;
 		border-radius: 0;
 	}
 
