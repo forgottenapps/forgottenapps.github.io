@@ -3,6 +3,7 @@ var main = function() {
 // var	pauseSlide = false;
 // var timer = setInterval(slideInterval, 0);
 	changeBorderColor();
+	var currentlyAnimating = false;
 
 		// Menu functions
 
@@ -31,7 +32,7 @@ var main = function() {
 		e.preventDefault();
 	});
 
-	$(document).mouseup(function (e) {
+	$(document).click(function (e) {
 	    var container = $('.header');
 
 	    if (!container.is(e.target) // if the target of the click isn't the container...
@@ -330,6 +331,10 @@ var main = function() {
 		// nextDot.addClass('active-dot');
 
 		changeBorderColor();
+
+		setTimeout(function(){
+			currentlyAnimating = false;
+		}, 600);
 	}
 
 	// function slideInterval () {
@@ -349,6 +354,10 @@ var main = function() {
 	
 
 	$('.next-slide').click(function(e) {
+		if (currentlyAnimating) { return; }
+
+		currentlyAnimating = true;
+
 		var nextSlide = $('.active-slide').next();
 		// var nextDot = $('.active-dot').next();
 		var nextImage = $('.active-image').next();
@@ -358,6 +367,10 @@ var main = function() {
 	});
 
 	$('.prev-slide').click(function(e) {
+		if (currentlyAnimating) { return; }
+
+		currentlyAnimating = true;
+
 		var nextSlide = $('.active-slide').prev();
 		// var nextDot = $('.active-dot').prev();
 		var nextImage = $('.active-image').prev();
