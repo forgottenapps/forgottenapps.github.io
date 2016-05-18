@@ -418,16 +418,24 @@ var main = function() {
 	//     sticky_relocate();
 	// });
 
-}
 
-$(document).ready(main);
+	var hasOnce = false;
 
-$(window).on("load", function() {
 	$(window).scroll(function() {
+		console.log('heeej')
+	if (hasOnce) { return; }
+		console.log('heeeaaaj')
+
 		setTimeout(function() {
 			$('.shareWindow').animate( {
 				right : 0
 			}, 200);
-		}, 2000);	
-	});		
-});
+				console.log('hej')
+		}, 2000);
+		hasOnce = true;
+		console.log(hasOnce)
+	});	
+
+}
+
+$(document).ready(main);

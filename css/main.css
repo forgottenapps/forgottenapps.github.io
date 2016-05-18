@@ -164,8 +164,12 @@ a {
 	height: 100%;
 	width: 100%;
 	position: absolute;
-	display: none;
 }
+
+#CanWePlay-slide {display: none;}
+#Ra2-slide {display: none;}
+#CanWePlay-image {display: none;}
+#Ra2-image {display: none;}
 
 .description-box {
 	height: 100%; 
@@ -181,11 +185,7 @@ a {
 }
 
 .active-slide {
-	display: block;
-}
-
-.imageSlide {
-	display: none;
+	display: block !important;
 }
 
 .active-image {
