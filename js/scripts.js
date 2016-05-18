@@ -399,6 +399,10 @@ var main = function() {
 		return false;
 	}
 
+	$('.hideButton').click(function() {
+		$('.shareWindow').hide();
+	});
+
 	// function sticky_relocate() {
 	//     var window_top = $(window).scrollTop();
 	//     var div_top = $('#sticky-anchor').offset().top;
@@ -417,3 +421,13 @@ var main = function() {
 }
 
 $(document).ready(main);
+
+$(window).on("load", function() {
+	$(window).scroll(function() {
+		setTimeout(function() {
+			$('.shareWindow').animate( {
+				right : 0
+			}, 200);
+		}, 2000);	
+	});		
+});
