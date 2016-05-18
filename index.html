@@ -17,8 +17,23 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
 	<link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+
+	<meta property="og:url"           content="http://forgottenapps.github.io/" />
+	<meta property="og:type"          content="website" />
+	<meta property="og:title"         content="ForgottenApplications" />
+	<meta property="og:description"   content="Your description" />
+	<meta property="og:image"         content="img/4get/4get collage4.png" />
 </head>
 <body>
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.6";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 
 	<div class="container-fluid" style="padding: 0;">
 		<div class="mynavbar flex">
@@ -398,8 +413,6 @@
 					<a href="#" class="next-slide"><span class="glyphicon glyphicon-menu-right"></span></a>
 				</div> -->
 
-			</div>
-
 		</div>
 
 <!-- 		<div id="mainContent" class="contactWrapper">
@@ -432,6 +445,24 @@
 			</div>
 		</div>
 
+	</div>
+
+	<div class="shareWindow" style="position: fixed; width: 200px; height: 100px; background-color: #0190ba;/* right: -200px;*/">
+		<div class="hideButton glyphicon glyphicon-remove" style="color: white; font-size: 12pt; position: absolute; right: 3px; top: 3px;"></div>
+
+		<div style="color: white; text-align: center; margin-top: 10px;">
+			<p style="margin-bottom: 0;">Like what you see?</p>
+			<p>Share us on Facebook!</p>
+		</div>
+
+		<div style="position: absolute; left: 75px;">
+		<div class="fb-share-button" 
+				data-href="http://forgottenapps.github.io/" 
+				data-layout="button" 
+				data-mobile-iframe="true"
+				style="z-index: 100;">
+		</div>
+		</div>
 	</div>
 
 	<script type="text/javascript" src="/js/scripts.js"></script>
