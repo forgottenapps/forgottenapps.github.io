@@ -399,9 +399,6 @@ var main = function() {
 		return false;
 	}
 
-	$('.hideButton').click(function() {
-		$('.shareWindow').hide();
-	});
 
 	// function sticky_relocate() {
 	//     var window_top = $(window).scrollTop();
@@ -419,21 +416,21 @@ var main = function() {
 	// });
 
 
+	$('.hideButton').click(function() {
+		$('.shareWindow').hide();
+	});
+
 	var hasOnce = false;
 
 	$(window).scroll(function() {
-		console.log('heeej')
 	if (hasOnce) { return; }
-		console.log('heeeaaaj')
 
 		setTimeout(function() {
 			$('.shareWindow').animate( {
 				right : 0
 			}, 200);
-				console.log('hej')
 		}, 5000);
 		hasOnce = true;
-		console.log(hasOnce)
 	});	
 
 }

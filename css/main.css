@@ -432,6 +432,11 @@ a {
 	#getItBanner a img {
 		margin-bottom: 25px;
 	}
+
+	#sharebutton { 
+		margin-top: 25px !important; 
+		position: relative !important; 
+	}
 }
 
 @media screen and (max-width: 905px) {
@@ -698,6 +703,9 @@ a {
 		height: 100vh !important;
 		min-height: 667px !important;
 	}*/
+
+	.shareWindow { display: none; }
+	#shareText { display: none; }
 }
 
 @media screen and (max-width: 374px) {
