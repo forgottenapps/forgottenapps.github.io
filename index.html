@@ -23,17 +23,36 @@
 	<meta property="og:title"         content="Forgotten Applications" />
 	<meta property="og:description"   content="4get - helps you remember when notes, to-do list and calendar apps get stuffed." />
 	<meta property="og:image"         content="http://forgottenapps.github.io/img/4get/4get-collage4.png" />
+	<meta property="fb:app_id"		  content="592261827610123"
 </head>
 <body>
 
-<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '592261827610123',
+      xfbml      : true,
+      version    : 'v2.6'
+    });
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+</script>
+
+<!-- <div id="fb-root"></div>
 <script>(function(d, s, id) {
   var js, fjs = d.getElementsByTagName(s)[0];
   if (d.getElementById(id)) return;
   js = d.createElement(s); js.id = id;
   js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.6";
   fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+}(document, 'script', 'facebook-jssdk'));</script> -->
 
 	<div class="container-fluid" style="padding: 0;">
 		<div class="mynavbar flex">
