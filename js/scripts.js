@@ -431,7 +431,7 @@ var main = function() {
 				right : 0
 			}, 200);
 				console.log('hej')
-		}, 2000);
+		}, 5000);
 		hasOnce = true;
 		console.log(hasOnce)
 	});	
